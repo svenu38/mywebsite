@@ -733,62 +733,54 @@
   }
 </style>
 
-
 <!-- Contact Section -->
 <section id="contact" class="contact section py-5">
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
-     <h2 class="display-4 text-center mb-4">Contact</h2> <!-- Use Bootstrap's display class for larger headings -->
+    <h2 class="display-4 text-center mb-4">Contact</h2>
   </div><!-- End Section Title -->
 
   <div class="container" data-aos="fade" data-aos-delay="100">
-     <div class="row justify-content-center">
-        <!-- Horizontal Contact Info -->
-        <div class="col-lg-12 d-flex justify-content-around align-items-center" data-aos="fade-up" data-aos-delay="200">
-           <div class="info-item d-flex align-items-center">
-              <i class="bi bi-geo-alt flex-shrink-0 me-3"></i>
-              <div>
-                 <h4>Address</h4>
-                 <p>Via Carlo Maria Rosini 12/B, Pozzuoli, Naples, Italy</p>
-              </div>
-           </div>
-           <div class="info-item d-flex align-items-center">
-              <i class="bi bi-telephone flex-shrink-0 me-3"></i>
-              <div>
-                 <h4>Call Us</h4>
-                 <p>+39 3348961888</p>
-              </div>
-           </div>
-           <div class="info-item d-flex align-items-center">
-              <i class="bi bi-envelope flex-shrink-0 me-3"></i>
-              <div>
-                 <h4>Email Us</h4>
-                 <p><a href="mailto:govindaraju.venu@outlook.com">govindaraju.venu@outlook.com</a></p>
-              </div>
-           </div>
+    <div class="row justify-content-center">
+      <!-- Contact Info - Using Bootstrap grid for better alignment -->
+      <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="info-item d-flex flex-column align-items-center text-center">
+          <i class="bi bi-geo-alt mb-3"></i>
+          <h4>Address</h4>
+          <p>Via Carlo Maria Rosini 12/B, Pozzuoli, Naples, Italy</p>
         </div>
-        <!-- End Horizontal Contact Info -->
-     </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="info-item d-flex flex-column align-items-center text-center">
+          <i class="bi bi-telephone mb-3"></i>
+          <h4>Call Us</h4>
+          <p>+39 3348961888</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="info-item d-flex flex-column align-items-center text-center">
+          <i class="bi bi-envelope mb-3"></i>
+          <h4>Email Us</h4>
+          <p><a href="mailto:govindaraju.venu@outlook.com">govindaraju.venu@outlook.com</a></p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
+<!-- Styling -->
 <style>
  .section {
-   padding: 60px 0; /* Add padding for better spacing */
+   padding: 60px 0;
  }
- .lead {
-   font-size: 1.25rem; /* Adjust lead font size if needed */
- }
- /* Title styling */
  #contact h2 {
- font-size: 2.5rem;
- color: #2c3e50; /* Solid dark blue-gray color */
- font-weight: 700;
- text-transform: uppercase;
- margin-bottom: 40px;
- }
- .info-item {
-   text-align: center;
+   font-size: 2.5rem;
+   color: #2c3e50;
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-bottom: 40px;
  }
  .info-item h4 {
    margin: 0;
@@ -801,11 +793,24 @@
    color: #6c757d;
  }
  .info-item i {
-   font-size: 1.5rem;
+   font-size: 2rem;
    color: #007bff;
  }
+ .info-item {
+   text-align: center;
+   padding: 20px;
+   background-color: #f8f9fa;
+   border-radius: 10px;
+   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+ }
+ .info-item a {
+   color: #007bff;
+   text-decoration: none;
+ }
+ .info-item a:hover {
+   text-decoration: underline;
+ }
 </style>
-<!-- /Contact Section -->
 
 
 
